@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cypress": "^9.0.0"
+  },
+  "scripts": {
+    "Record": "cypress run --record --key 0bda0cfb-a513-4512-b02b-6140e68f74ad",
+    "cypress:open": "cypress open",
+    "MX-DEV-QUIZ": "cypress run --browser chrome --spec 'cypress/integration/Behaviours/MX-DEV-QUIZ.js'",
+    "MX-PROD-QUIZ": "cypress run --browser chrome --spec 'cypress/integration/Behaviours/MX-STAYING-QUIZ.js'",
+    "MX-DEV-QUIZ-CC": "cypress run --browser chrome --spec 'cypress/integration/Behaviours/MX-DEV-QUIZ-CC.js'",
+    "MX-PROD-QUIZ-CC": "cypress run --browser chrome --spec 'cypress/integration/Behaviours/MX-PROD-QUIZ-CC.js'",
+    "MX-STAYING-QUIZ-CC": "cypress run --browser chrome --spec 'cypress/integration/Behaviours/MX-STAYING-QUIZ.js'",
+    "CL-DEV-QUIZ": "cypress run --browser chrome --spec 'cypress/integration/Behaviours/CL-DEV-QUIZ.js'",
+    "CL-STAYING-QUIZ": "cypress run --browser chrome --spec 'cypress/integration/Behaviours/CL-DEV-QUIZ.js'",
+    "CL-PROD-QUIZ": "cypress run --record --key 0bda0cfb-a513-4512-b02b-6140e68f74ad --browser chrome --spec 'cypress/integration/Behaviours/CL-PROD-QUIZ.js'"
+  }
+}
